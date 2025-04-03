@@ -1,0 +1,23 @@
+{
+    "background": "#232323",
+    "black": "#212121",
+    "blue": "#86C1FC",
+    "brightBlack": "#404040",
+    "brightBlue": "#A6D2FF",
+    "brightCyan": "#8AD3CA",
+    "brightGreen": "#99E082",
+    "brightPurple": "#C7A7EF",
+    "brightRed": "#F28060",
+    "brightWhite": "#E8E8E8",
+    "brightYellow": "#FFFF9F",
+    "cursorColor": "#F3F2CC",
+    "cyan": "#86C1B9",
+    "foreground": "#F3F2CC",
+    "green": "#99BE70",
+    "name": "Autumn",
+    "purple": "#B1A0DB",
+    "red": "#F05E48",
+    "selectionBackground": "#476381",
+    "white": "#C8C8C8",
+    "yellow": "#FAD566"
+}
