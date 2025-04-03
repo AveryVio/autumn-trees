@@ -31,3 +31,4 @@ dark
 >the three material colors are from the 60 variant
 
 light
+    not supported yet
