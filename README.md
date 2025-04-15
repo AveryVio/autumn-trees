@@ -8,9 +8,9 @@ dark
     secondary: #AB897E  
     terniary: #9E9061  
     neutral: #ACB0BE  
-    black": "#212121
-    blue": "#86C1FC
-
+    
+    black: #212121
+    blue: #86C1FC
     brightBlack: #404040
     brightBlue: #A6D2FF
     brightCyan: #8AD3CA
@@ -27,7 +27,7 @@ dark
     red: #F05E48
     selectionBackground: #476381
     white: #C8C8C8
-    yellow: #FAD56
+    yellow: #FAD566
 >the three material colors are from the 60 variant
 
 light

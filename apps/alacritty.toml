@@ -1,5 +1,3 @@
-# From: https://github.com/yorickpeterse/Autumn.vim/blob/master/colors/autumn.vim
-
 [colors.primary]
 foreground = "#F3F2CC"
 background = "#232323"
