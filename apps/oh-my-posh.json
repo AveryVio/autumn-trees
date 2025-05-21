@@ -4,7 +4,7 @@
     "gray": "#ACB0BE",
     "primary": "#D57757",
     "secandary": "#AB897E",
-    "terniary": "#9E9061"
+    "terniary": "#9e9061"
   },
   "blocks": [
     {
@@ -15,7 +15,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " {{.Icon}}  ",
+          "template": " {{.Icon}} <b> ϰ</b> ",
           "foreground": "p:gray",
           "type": "os",
           "style": "plain"
@@ -42,7 +42,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "| ",
+          "template": "<b>ζ</b> ",
           "foreground": "p:gray",
           "type": "text",
           "style": "plain"
@@ -90,7 +90,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " >",
+          "template": " <b>ξ</b> ",
           "foreground": "p:gray",
           "type": "text",
           "style": "plain"
