@@ -15,7 +15,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " {{.Icon}} <b> ϰ</b> ",
+          "template": " {{.Icon}}  ",
           "foreground": "p:gray",
           "type": "os",
           "style": "plain"
@@ -42,7 +42,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<b>ζ</b> ",
+          "template": "<b>|</b> ",
           "foreground": "p:gray",
           "type": "text",
           "style": "plain"
@@ -90,7 +90,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " <b>ξ</b> ",
+          "template": " <b>&</b>",
           "foreground": "p:gray",
           "type": "text",
           "style": "plain"
