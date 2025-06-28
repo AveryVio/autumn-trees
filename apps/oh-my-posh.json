@@ -30,19 +30,16 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<p:primary,>{{ .Name }}</>",
+          "template": "<p:primary>{{ .Name }}</>",
           "foreground": "p:gray",
           "type": "shell",
           "style": "plain"
         },
         {
           "properties": {
-            "cache_duration": "none",
-            "mapped_shell_names": {
-              "pwsh": "pwsh"
-            }
+            "cache_duration": "none"
           },
-          "template": "<p:gray,>as</> root",
+          "template": " <p:gray,>as</> root",
           "foreground": "p:terniary",
           "type": "root",
           "style": "plain"
@@ -59,9 +56,11 @@
         {
           "properties": {
             "cache_duration": "none",
-            "folder_icon": "..\ue5fe..",
+            "folder_icon": "..",
             "home_icon": "~",
-            "style": "agnoster_short",
+            "windows_registry_icon": "\ue5fe",
+            "style": "mixed",
+            "mixed_threshold": 5,
             "mapped_locations": {
               "~/Documents/school/": "School:\\",
               "~/Documents/school/*": "School:\\",
