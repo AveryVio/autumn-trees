@@ -15,25 +15,34 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": " {{.Icon}}  ",
+          "template": " {{.Icon}} ",
           "foreground": "p:gray",
           "type": "os",
           "style": "plain"
         },
         {
+          "type": "session",
+          "style": "plain",
+          "foreground": "p:gray",
+          "template": "{{ if .SSHSession }}<p:primary>SSH</> % <p:terniary>{{.UserName}}</>@<p:secandary>{{ .HostName }}</> ${{ end }} "
+        },
+        {
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<p:primary,>{{ .Name }}</> ",
+          "template": "<p:primary,>{{ .Name }}</>",
           "foreground": "p:gray",
           "type": "shell",
           "style": "plain"
         },
         {
           "properties": {
-            "cache_duration": "none"
+            "cache_duration": "none",
+            "mapped_shell_names": {
+              "pwsh": "pwsh"
+            }
           },
-          "template": "<p:gray,>as</> root ",
+          "template": "<p:gray,>as</> root",
           "foreground": "p:terniary",
           "type": "root",
           "style": "plain"
@@ -42,7 +51,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<b>|</b> ",
+          "template": " | ",
           "foreground": "p:gray",
           "type": "text",
           "style": "plain"
